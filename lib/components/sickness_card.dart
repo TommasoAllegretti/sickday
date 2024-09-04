@@ -42,7 +42,7 @@ class SicknessCard extends StatelessWidget {
                 ) ,
                 Container(
                     padding: const EdgeInsets.all(4.0),
-                    child: Text('${DateTime.now().day.toString().length > 1 ? DateTime.now().day.toString() : '0${DateTime.now().day}' }/${DateTime.now().month.toString().length > 1 ? DateTime.now().month.toString() : '0${DateTime.now().month}' }/${DateTime.now().year}')
+                    child: Text('${sicknessOccurency.dateTime.day.toString().length > 1 ? sicknessOccurency.dateTime.day.toString() : '0${sicknessOccurency.dateTime.day}' }/${sicknessOccurency.dateTime.month.toString().length > 1 ? sicknessOccurency.dateTime.month.toString() : '0${sicknessOccurency.dateTime.month}' }/${sicknessOccurency.dateTime.year}')
                 ),
             ],
           )

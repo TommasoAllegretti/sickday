@@ -3,6 +3,7 @@ import 'package:sickday/components/sickness_card.dart';
 import 'package:sickday/test_data.dart';
 
 class Homepage extends StatefulWidget {
+  const Homepage({super.key});
 
   @override
   State<StatefulWidget> createState() => _HomepageState();
@@ -21,6 +22,12 @@ class _HomepageState extends State<Homepage> {
 
     return Scaffold(
       appBar: AppBar(
+        title: const Text(
+          'Agosto 2024',
+          style: TextStyle(
+            fontWeight: FontWeight.bold
+          ),
+        ),
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
