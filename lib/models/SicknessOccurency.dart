@@ -1,5 +1,5 @@
 class SicknessOccurency {
-  SicknessOccurency({required this.id, required this.sicknessId, required this.personId, required this.dateTime, required this.currentWeight});
+  const SicknessOccurency({required this.id, required this.sicknessId, required this.personId, required this.dateTime, required this.currentWeight});
 
   final int id;
   final int sicknessId;
